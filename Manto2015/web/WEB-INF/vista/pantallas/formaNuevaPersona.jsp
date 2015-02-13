@@ -61,7 +61,15 @@
                            value="${formaNuevaPersona.apellidoMaterno}" />
                 </div>
             </div>
-      <!---    /cidades --->      
+
+            <div class="td" align="left">
+                    <select name="idEstado" >
+                      <c:forEach var="estado" items="${formaNuevoCiudad.estados}">
+                        <option value='<c:out value="${estado.id}" />'><c:out value="${estado.nombre}" /></option>
+                      </c:forEach>
+                    </select>
+                </div>
+         
             <div class="tr">
                 <div class="td" align="right">
                     <fmt:message key="formaNuevaPersona.etiqueta.ciudades" />
