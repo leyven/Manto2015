@@ -58,6 +58,7 @@ $(document).on('ready',function() {
 	});
 	var valorTelefono = 0;
 	$( "#telefono" ).click(function() {
+           
 		$.post("http://localhost:8080/JACE/procesarListadoGenteOrd.do", { ordenar: "telefono", tipo: valorTelefono })
 		.done(function(data) {
 		  	$('#tablecontent').html(data);
@@ -73,6 +74,7 @@ $(document).on('ready',function() {
 	});
 	var valorCiudad = 0;
 	$( "#ciudad" ).click(function() {
+            
 		$.post("http://localhost:8080/JACE/procesarListadoGenteOrd.do", { ordenar: "ciudad", tipo: valorCiudad })
 		.done(function(data) {
 		  	$('#tablecontent').html(data);

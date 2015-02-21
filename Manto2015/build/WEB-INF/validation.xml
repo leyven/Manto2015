@@ -40,20 +40,36 @@
         <form name="formaNuevoLogin">
             <field property="nombrePrefijo" depends="required">
                 <arg0 key="formaNuevoLogin.etiqueta.nombrePrefijo"/>
+
             </field>
             <field property="claveAcceso" depends="required">
                 <arg0 key="formaNuevoLogin.etiqueta.claveAcceso"/>
             </field>
         </form>
         <form name="formaNuevoGente">
-            <field property="nombres" depends="required">
+            <field property="nombres" depends="required,mask">
+                <msg name="mask" key="errors.mascaraa-zA-Z"/>
                 <arg0 key="formaNuevoGente.etiqueta.nombres"/>
+                <var>
+                    <var-name>mask</var-name>
+                    <var-value>${alfabetico}</var-value>
+                </var>
             </field>
-            <field property="apellidos" depends="required">
+            <field property="apellidos" depends="required,mask">
+                <msg name="mask" key="errors.mascaraa-zA-Z"/>
                 <arg0 key="formaNuevoGente.etiqueta.apellidos"/>
+                <var>
+                    <var-name>mask</var-name>
+                    <var-value>${alfabetico}</var-value>
+                </var>
             </field>
-            <field property="direccion" depends="required">
+            <field property="direccion" depends="required,mask">
+                <msg name="mask" key="errors.mascaraa-zA-Z"/>
                 <arg0 key="formaNuevoGente.etiqueta.direccion"/>
+                <var>
+                    <var-name>mask</var-name>
+                    <var-value>${alfabetico}</var-value>
+                </var>
             </field>
             <field property="telefono" depends="required">
                 <arg0 key="formaNuevoGente.etiqueta.telefono"/>
