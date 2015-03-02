@@ -58,7 +58,7 @@
                     <input type="submit" 
                            name="submit"
                            value="Agregar y volver"
-                           onclick="forma.action='procesarRegistroCiudad.do?volver=si'"/>
+                           onclick="forma.action='irInicio.do?volver=si'"/>
                     <input type="button"
                            value="Reset"
                            onclick="location.href='solicitarRegistroCiudad.do'" />
