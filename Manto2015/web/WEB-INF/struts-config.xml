@@ -85,6 +85,10 @@
                 forward="/WEB-INF/vista/pantallas/pantallaBienvenida.jsp" />
         <action path="/irAyuda"
                 forward="/WEB-INF/vista/pantallas/pantallaAyuda.jsp" />
+
+        <action path="/Test"
+                forward="/WEB-INF/vista/pantallas/pantallaTest.jsp" />
+
         <action path="/solicitarRegistro"
                 type="edu.uag.iidis.scec.control.MCURegistrarUsuario"
                 parameter="solicitarRegistro"

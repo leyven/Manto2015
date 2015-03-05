@@ -6,7 +6,7 @@
         <span><a href="solicitarListarEstados.do">Estados</a></span>
         <span><a href="solicitarListarCiudades.do">Ciudades</a></span>
         <span><a href="solicitarListarGentes.do">Personas</a></span>
-        <span><a href="solicitarListarGentes.do">Test</a></span>
+        <span><a href="Test.do">Test</a></span>
         <span><a href="irAyuda.do">Ayuda</a></span>
     </section>
     <!-- FS: Barra Menu Principal -->	
