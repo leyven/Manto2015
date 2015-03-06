@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding: 0;}
+
+body{
+	background: #f1f1f1;
+}
+
+.Nuevos_test{
+	background-color: white;
+	border-radius: 15px;
+	box-shadow: -14px 10px 16px #000000 ;
+	border-style: solid;
+	border-color: rgb(110, 142, 230);
+	margin-left: auto;
+  	margin-right: auto;
+  	max-width: 700px;
+}
+.botonNTest{
+	margin-left: 5%;
+}
+td{
+	padding-bottom: 5px;
+	padding-right: 10px; 
+}
+.Test{
+	background: #f1f1f1;
+	border-radius: 15px;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	margin-left: 5%;
+  	margin-right: 40%;
+  	max-width: 700px;
+  	padding: 50px;
+}

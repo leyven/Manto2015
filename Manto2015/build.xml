@@ -121,7 +121,7 @@
     <property name="dist.home"       value="${basedir}/dist"/>
     <property name="test.out.dir"    value="${basedir}/testout"/>
 
-    <property name="catalina.home"    value="C:\Users\Edy\Documents\Java External libs\apache-tomcat-8.0.15"/>
+    <property name="catalina.home"    value="C:\apache-tomcat-8.0.15"/>
     <property name="manager.url"      value="http://127.0.0.1:8080/manager/text"/>
     <property name="manager.username" value="admin"/>
     <property name="manager.password" value="1234"/>
