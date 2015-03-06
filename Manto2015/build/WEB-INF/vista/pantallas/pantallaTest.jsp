@@ -17,7 +17,8 @@
                 <center>
                     <p><h3>Editar Test</h3></p>
                 </center>
-                <span class="botonNTest"><button>Nuevo Test</button></span>  
+                <span class="botonNTest"><button>Nuevo Test</button></span>
+                <!--Aqui va a aparecer el formulario del nuevo test para agregarlo si asi se desea --> 
                 <div class="Test">
                     <table>
                         <tr>
