@@ -13,7 +13,7 @@
             <c:import url="/WEB-INF/vista/comun/barraMenu01.jsp" />
 
             <section class="inicio">
-                <h3>aca van a estar la vista de lsa pantallas de test</h3>
+                <h3>aca van a estar la vista de las pantallas de test</h3>
             </section>
 
             <c:import url="/WEB-INF/vista/comun/barraPie.jsp" />
