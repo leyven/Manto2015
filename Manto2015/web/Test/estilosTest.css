@@ -5,7 +5,11 @@
 body{
 	background: #f1f1f1;
 }
-
+#showTest,#showSeccion{
+	padding: 2%;
+	padding-left: 5%;
+	display:none;
+}
 .Nuevos_test{
 	background-color: white;
 	border-radius: 15px;
@@ -18,10 +22,6 @@ body{
 }
 .boton{
 	margin-left: 5%;
-}
-td{
-	padding-bottom: 5px;
-	padding-right: 10px; 
 }
 .Test{
 	background: #f1f1f1;

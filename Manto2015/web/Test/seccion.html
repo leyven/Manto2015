@@ -4,30 +4,37 @@
 		<meta charset="UTF-8">
 		<title>Admin | Seccion</title>
 		<link rel="stylesheet" type="text/css" href="estilosTest.css">
-		<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-		<script type="text/javascript" src="src/script.js"></script>-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
 	</head>
 	<body>
 		<div class="Nuevos_test">
 			<center>
 				<p><h3>Editar Secciones</h3></p>
 			</center>
-			<span class="boton"><button>Nueva Seccion</button></span>	
+			<span class="boton" id="NSeccion"><button>Nueva Seccion</button></span>
+			<div id="showSeccion">
+				<input type="text" placeholder="Nueva Seccion">
+				<input id="addSeccion" type="submit" value=" Agregar ">
+			</div>	
 			<div class="Test">
-				<table>
+				<center><p><h3>Nombre del Test</h3></p></center><br>
+				<table id="Table">
 					<tr>
 						<td>Seccion1</td>
-						<td><button>Preguntas</button></td>
+						<td><input type="submit" value=" Preguntas "onclick="location='pregunta.html'"></td>
 					</tr>
 					<tr>
 						<td>Seccion2</td>
-						<td><button>Preguntas</button></td>
+						<td><input type="submit" value=" Preguntas "onclick="location='pregunta.html'"></td>
 					</tr>
 					<tr>
 						<td>Seccion3</td>
-						<td><button>Preguntas</button></td>
+						<td><input type="submit" value=" Preguntas "onclick="location='pregunta.html'"></td>
 					</tr>
-				</table>
+				</table><br>
+				<input type="submit" value=" Guardar "onclick="location='test.html';alert('Datos Guardados')"><br><br>
+				<td><input type="submit" value=" Return "onclick="location='test.html'"></td>
 			</div>
 		</div>
 	</body>

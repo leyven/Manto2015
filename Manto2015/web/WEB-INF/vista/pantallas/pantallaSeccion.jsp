@@ -14,23 +14,22 @@
 
             <section class="inicio">
                 <center>
-                    <p><h3>Editar Test</h3></p>
+                    <p><h3>Editar Secciones</h3></p>
                 </center>
-                <span class="botonNTest"><button>Nuevo Test</button></span>
-                <!--Aqui va a aparecer el formulario del nuevo test para agregarlo si asi se desea --> 
+                <span class="boton"><button>Nueva Seccion</button></span>   
                 <div class="Test">
                     <table>
                         <tr>
-                            <td>Test1</td>
-                            <td><button>Secciones</button></td>
+                            <td>Seccion1</td>
+                            <td><button>Preguntas</button></td>
                         </tr>
                         <tr>
-                            <td>Test2</td>
-                            <td><button>Secciones</button></td>
+                            <td>Seccion2</td>
+                            <td><button>Preguntas</button></td>
                         </tr>
                         <tr>
-                            <td>Test3</td>
-                            <td><button>Secciones</button></td>
+                         <td>Seccion3</td>
+                         <td><button>Preguntas</button></td>
                         </tr>
                     </table>
                 </div>
