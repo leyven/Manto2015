@@ -13,6 +13,7 @@
             <c:import url="/WEB-INF/vista/comun/barraMenu01.jsp" />
 
             <section class="inicio">
+<<<<<<< HEAD
                 <center>
                     <p><h3>Editar Test</h3></p>
                 </center>
@@ -34,6 +35,9 @@
                         </tr>
                     </table>
                 </div>
+=======
+                <h3>aca van a estar la vista de las pantallas de test</h3>
+>>>>>>> 3f1be06838373e4c5c4a5d866a7c17bc1578a202
             </section>
 
             <c:import url="/WEB-INF/vista/comun/barraPie.jsp" />
